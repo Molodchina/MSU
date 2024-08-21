@@ -1,0 +1,18 @@
+[submodule "IFC-DL"]
+	path = IFC-DL
+	url = https://github.com/Championsh/MSU-DL-IFC
+[submodule "Prac-Web"]
+	path = Prac-Web
+	url = https://github.com/Championsh/MSU-Web-Prac
+[submodule "Prac"]
+	path = Prac
+	url = https://github.com/Championsh/MSU-Prac
+[submodule "Prac-OS"]
+	path = Prac-OS
+	url = https://github.com/Championsh/MSU-OS-Prac
+[submodule "Prac-ML"]
+	path = Prac-ML
+	url = https://github.com/Championsh/MSU-ML-Prac
+[submodule "Prac-Database"]
+	path = Prac-Database
+	url = https://github.com/Championsh/MSU-Database-Prac
