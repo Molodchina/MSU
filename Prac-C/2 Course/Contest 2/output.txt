@@ -1,0 +1,93 @@
+OpenSSH_8.9p1 Ubuntu-3, OpenSSL 3.0.2 15 Mar 2022
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to 54.246.138.197 [54.246.138.197] port 22.
+debug1: Connection established.
+debug1: identity file /home/champion/.ssh/id_rsa type 0
+debug1: identity file /home/champion/.ssh/id_rsa-cert type -1
+debug1: identity file /home/champion/.ssh/id_ecdsa type -1
+debug1: identity file /home/champion/.ssh/id_ecdsa-cert type -1
+debug1: identity file /home/champion/.ssh/id_ecdsa_sk type -1
+debug1: identity file /home/champion/.ssh/id_ecdsa_sk-cert type -1
+debug1: identity file /home/champion/.ssh/id_ed25519 type -1
+debug1: identity file /home/champion/.ssh/id_ed25519-cert type -1
+debug1: identity file /home/champion/.ssh/id_ed25519_sk type -1
+debug1: identity file /home/champion/.ssh/id_ed25519_sk-cert type -1
+debug1: identity file /home/champion/.ssh/id_xmss type -1
+debug1: identity file /home/champion/.ssh/id_xmss-cert type -1
+debug1: identity file /home/champion/.ssh/id_dsa type -1
+debug1: identity file /home/champion/.ssh/id_dsa-cert type -1
+debug1: Local version string SSH-2.0-OpenSSH_8.9p1 Ubuntu-3
+debug1: Remote protocol version 2.0, remote software version OpenSSH_8.8
+debug1: compat_banner: match: OpenSSH_8.8 pat OpenSSH* compat 0x04000000
+debug1: Authenticating to 54.246.138.197:22 as 's02210475'
+debug1: load_hostkeys: fopen /home/champion/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256
+debug1: kex: host key algorithm: ssh-ed25519
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: SSH2_MSG_KEX_ECDH_REPLY received
+debug1: Server host key: ssh-ed25519 SHA256:KTKst2BhrBIViBku5oJ3VqBL5v5mszqD9tj/t8SmzjQ
+debug1: load_hostkeys: fopen /home/champion/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: Host '54.246.138.197' is known and matches the ED25519 host key.
+debug1: Found key in /home/champion/.ssh/known_hosts:1
+debug1: rekey out after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 134217728 blocks
+debug1: get_agent_identities: bound agent to hostkey
+debug1: get_agent_identities: agent returned 1 keys
+debug1: Will attempt key: /home/champion/.ssh/id_rsa RSA SHA256:0kq+dDgfhifiY4BQwYygyqEwRNly4lTxHL7AmzNgknk agent
+debug1: Will attempt key: /home/champion/.ssh/id_ecdsa 
+debug1: Will attempt key: /home/champion/.ssh/id_ecdsa_sk 
+debug1: Will attempt key: /home/champion/.ssh/id_ed25519 
+debug1: Will attempt key: /home/champion/.ssh/id_ed25519_sk 
+debug1: Will attempt key: /home/champion/.ssh/id_xmss 
+debug1: Will attempt key: /home/champion/.ssh/id_dsa 
+debug1: SSH2_MSG_EXT_INFO received
+debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com>
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password
+debug1: Next authentication method: gssapi-with-mic
+debug1: No credentials were supplied, or the credentials were unavailable or inaccessible
+No Kerberos credentials available (default cache: FILE:/tmp/krb5cc_1000)
+
+
+debug1: No credentials were supplied, or the credentials were unavailable or inaccessible
+No Kerberos credentials available (default cache: FILE:/tmp/krb5cc_1000)
+
+
+debug1: Next authentication method: publickey
+debug1: Offering public key: /home/champion/.ssh/id_rsa RSA SHA256:0kq+dDgfhifiY4BQwYygyqEwRNly4lTxHL7AmzNgknk agent
+debug1: Server accepts key: /home/champion/.ssh/id_rsa RSA SHA256:0kq+dDgfhifiY4BQwYygyqEwRNly4lTxHL7AmzNgknk agent
+Authenticated to 54.246.138.197 ([54.246.138.197]:22) using "publickey".
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: filesystem
+debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
+debug1: client_input_hostkeys: searching /home/champion/.ssh/known_hosts for 54.246.138.197 / (none)
+debug1: client_input_hostkeys: searching /home/champion/.ssh/known_hosts2 for 54.246.138.197 / (none)
+debug1: client_input_hostkeys: hostkeys file /home/champion/.ssh/known_hosts2 does not exist
+debug1: Remote: /home/s02210475/.ssh/authorized_keys:6: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug1: Remote: /home/s02210475/.ssh/authorized_keys:6: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug1: Sending environment.
+debug1: channel 0: setting env LANG = "ru_RU.UTF-8"
+debug1: Sending command: exit
+debug1: client_global_hostkeys_private_confirm: server used untrusted RSA signature algorithm ssh-rsa for key 0, disregarding
+debug1: update_known_hosts: known hosts file /home/champion/.ssh/known_hosts2 does not exist
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+Transferred: sent 3332, received 3304 bytes, in 0.2 seconds
+Bytes per second: sent 15076.9, received 14950.2
+debug1: Exit status 0

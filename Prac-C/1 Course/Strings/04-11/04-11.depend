@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1638622877 source:d:\c\contest#1\strings\04-11\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

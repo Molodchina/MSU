@@ -1,0 +1,10 @@
+#BSUB -n 20
+#BSUB -W 00:15
+#BSUB -o mpi_heat-3d.%J.out
+#BSUB -e mpi_heat-3d.%J.err
+
+for n in 1 2 3 4 5 6 7 8 9 10 20 40 60 80 100 120 140 160
+do
+    mpirun -oversubscribe -np $n ./mpi_heat-3d
+done
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/dfa_minim.dir/main.cpp.o CMakeFiles/dfa_minim.dir/task.cpp.o -o dfa_minim   -L/home/champion/Projects/minim_formals/dfa_minim  -L/home/champion/Projects/minim_formals  -Wl,-rpath,/home/champion/Projects/minim_formals/dfa_minim:/home/champion/Projects/minim_formals: -lRegexCheckerCore_Linux 

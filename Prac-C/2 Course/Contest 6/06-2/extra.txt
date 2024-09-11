@@ -1,0 +1,48 @@
+int
+main(void)
+{
+    char buf[] = "/aa/../aa/../../aa/./.";
+    normalize_path(buf);
+    printf("%s\n", buf);
+    return 0;
+}
+
+    long long len = 0;
+    while (buf[len] != '\0'){
+        ++len;
+    }
+
+        if (len > 2) {
+            prev3 = buf[len - 3];
+            prev2 = buf[len - 2];
+            prev1 = buf[len - 1];
+            cur = buf[len];
+            if (prev3 == '/' && prev2 == '.'
+                && prev1 == '.' && cur == '/') {
+                refrag(buf, len - 1, 2);
+                len -= 2;
+                sl_amount = 0;
+                while (sl_amount < 2 && len > 0) {
+                    if (buf[len - 1] == '/') {
+                        ++sl_amount;
+                    }
+                    refrag(buf, len, 1);
+                    --len;
+                }
+            }
+        }
+
+for (long long i = 0; i + 2 <= len; ++i) {
+        if (buf[i] == '/' && buf[i + 1] == '.'
+                && buf[i + 2] == '/') {
+            for (long long j = i + 1; j + 2 < len; ++j) {
+                buf[j] = buf[j + 2];
+            }
+            buf[len - 2] = '\0';
+            len -= 2;
+        }
+    }
+    if (len > 1 && buf[len - 1] == '.' && buf[len - 2] == '/') {
+        buf[len - 1] = '\0';
+        --len;
+    }
