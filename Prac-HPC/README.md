@@ -33,6 +33,8 @@ where `t` represents the time taken for one elementary scalar operation.
 
 ### Results of the Sequential Algorithm
 
+![Results of the Sequential Algorithm](https://github.com/Molodchina/MSU/blob/main/Prac-HPC/docs/normal.jpg)
+
 ---
 
 ## Parallel Algorithm
@@ -50,6 +52,8 @@ We will also parallelize the function `kernel_head_3d`. This function performs c
 
 #### Results for FOR Directive
 
+![Results for PARALLEL FOR Directive](https://github.com/Molodchina/MSU/blob/main/Prac-HPC/docs/for.jpg)
+
 ---
 
 ### OMP Task
@@ -57,6 +61,8 @@ We will also parallelize the function `kernel_head_3d`. This function performs c
 We will employ a task-based parallelism approach. Let each new computation of temperatures distribute the execution thread into `q` threads.
 
 #### Results for TASK Directive
+
+![Results for PARALLEL TASK Directive](https://github.com/Molodchina/MSU/blob/main/Prac-HPC/docs/task.jpg)
 
 ---
 
