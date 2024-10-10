@@ -13,3 +13,15 @@
 [submodule "Prac-OS"]
 	path = Prac-OS
 	url = git@github.com:Molodchina/MSU-OS-Prac.git
+[submodule "Prac-ASM"]
+	path = Prac-ASM
+	url = git@github.com:Molodchina/MSU-ASM-Prac.git
+[submodule "Prac-C"]
+	path = Prac-C
+	url = git@github.com:Molodchina/MSU-C-Prac.git
+[submodule "Prac-CPP"]
+	path = Prac-CPP
+	url = git@github.com:Molodchina/MSU-CPP-Prac.git
+[submodule "Prac-HPC"]
+	path = Prac-HPC
+	url = git@github.com:Molodchina/MSU-HPC-Prac.git
