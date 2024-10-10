@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1640021781 source:d:\c\contest#1\files\13\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<inttypes.h>
-	<math.h>
-	<stdbool.h>
-

@@ -1,0 +1,15 @@
+[submodule "Prac-Web"]
+	path = Prac-Web
+	url = git@github.com:Molodchina/MSU-Web-Prac.git
+[submodule "IFC-DL"]
+	path = IFC-DL
+	url = git@github.com:Molodchina/MSU-DL-IFC.git
+[submodule "Prac-Database"]
+	path = Prac-Database
+	url = git@github.com:Molodchina/MSU-Database-Prac.git
+[submodule "Prac-ML"]
+	path = Prac-ML
+	url = git@github.com:Molodchina/MSU-ML-Prac.git
+[submodule "Prac-OS"]
+	path = Prac-OS
+	url = git@github.com:Molodchina/MSU-OS-Prac.git
