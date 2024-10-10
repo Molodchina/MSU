@@ -25,3 +25,12 @@
 [submodule "Prac-HPC"]
 	path = Prac-HPC
 	url = git@github.com:Molodchina/MSU-HPC-Prac.git
+[submodule "IFC-ML"]
+	path = IFC-ML
+	url = git@github.com:Molodchina/MSU-ML-IFC.git
+[submodule "Prac-Numerical-Methods"]
+	path = Prac-Numerical-Methods
+	url = git@github.com:Molodchina/MSU-NM-Prac.git
+[submodule "Prac-Formal-Languages-and-Automata"]
+	path = Prac-Formal-Languages-and-Automata
+	url = git@github.com:Molodchina/MSU-FLA-Prac.git
