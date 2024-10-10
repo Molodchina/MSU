@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/re2dfa.dir/main.cpp.o CMakeFiles/re2dfa.dir/task.cpp.o -o re2dfa   -L/home/champion/Projects/formals/re2dfa  -L/home/champion/Projects/formals  -Wl,-rpath,/home/champion/Projects/formals/re2dfa:/home/champion/Projects/formals: -lRegexCheckerCore_Linux 

@@ -1,7 +1,0 @@
-/home/champion/Projects/formals/CMakeFiles/re2dfa.dir
-/home/champion/Projects/formals/CMakeFiles/edit_cache.dir
-/home/champion/Projects/formals/CMakeFiles/rebuild_cache.dir
-/home/champion/Projects/formals/CMakeFiles/list_install_components.dir
-/home/champion/Projects/formals/CMakeFiles/install.dir
-/home/champion/Projects/formals/CMakeFiles/install/local.dir
-/home/champion/Projects/formals/CMakeFiles/install/strip.dir

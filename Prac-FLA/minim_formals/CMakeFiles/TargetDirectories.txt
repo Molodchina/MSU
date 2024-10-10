@@ -1,7 +1,0 @@
-/home/champion/Projects/minim_formals/CMakeFiles/dfa_minim.dir
-/home/champion/Projects/minim_formals/CMakeFiles/edit_cache.dir
-/home/champion/Projects/minim_formals/CMakeFiles/rebuild_cache.dir
-/home/champion/Projects/minim_formals/CMakeFiles/list_install_components.dir
-/home/champion/Projects/minim_formals/CMakeFiles/install.dir
-/home/champion/Projects/minim_formals/CMakeFiles/install/local.dir
-/home/champion/Projects/minim_formals/CMakeFiles/install/strip.dir
